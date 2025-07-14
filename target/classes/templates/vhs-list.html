@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Lista de VHS</title>
+</head>
+<body>
+    <h1>Lista de VHS</h1>
+    <table>
+        <tr>
+            <th>Título</th>
+            <th>Diretor</th>
+            <th>Status</th>
+        </tr>
+        <tr th:each="vhs : ${vhsList}">
+            <td th:text="${vhs.title}"></td>
+            <td th:text="${vhs.director}"></td>
+            <td th:text="${vhs.status}"></td>
+        </tr>
+    </table>
+</body>
+</html>
