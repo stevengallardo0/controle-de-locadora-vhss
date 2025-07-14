@@ -9,7 +9,7 @@ A aplicação permite o gerenciamento de fitas VHS, com funcionalidades de cadas
 
 TECNOLOGIAS UTILIZADAS
 -----------------------
-- Java 17
+- Java 21
 - Spring Boot
 - Spring Data JPA
 - Thymeleaf
